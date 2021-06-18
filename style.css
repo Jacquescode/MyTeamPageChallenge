@@ -32,6 +32,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   max-width: 625px;
+  height: 120vh;
 }
 img {
   width: 140px;
@@ -39,7 +40,14 @@ img {
 .card {
   display: flex;
 }
+.card2 {
+  display: flex;
+  align-self: flex-end;
+}
 
+.card3 {
+  display: flex;
+}
 .profession {
   writing-mode: vertical-rl;
 }
@@ -56,5 +64,13 @@ img {
 
   .subtitle {
     padding: 30px;
+  }
+
+  .team {
+    height: 100vh;
+  }
+
+  .card3 {
+    align-self: flex-end;
   }
 }
