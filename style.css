@@ -57,7 +57,7 @@ footer {
   padding: 20px 0;
 }
 
-@media (min-width: 340px) {
+@media (min-width: 395px) {
   .ctn-card1,
   .ctn-card2,
   .ctn-card3,
@@ -79,7 +79,7 @@ img {
   width: 160px;
   }  
 
-@media (min-width: 600px) {
+@media (min-width: 593px) {
   header {
     display: flex;
     justify-content: space-evenly;
