@@ -36,7 +36,7 @@
 
 ## Overview
 
-<img src="/images/screencapture.png">
+<img src="/Images/screencapture.png">
 
 ### Built With
 
