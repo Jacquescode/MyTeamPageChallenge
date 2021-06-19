@@ -57,7 +57,7 @@ footer {
   padding: 20px 0;
 }
 
-@media (min-width: 395px) {
+@media (min-width: 360px) {
   .ctn-card1,
   .ctn-card2,
   .ctn-card3,
