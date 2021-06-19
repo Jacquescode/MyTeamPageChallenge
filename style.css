@@ -32,24 +32,42 @@ main {
   display: flex;
   flex-wrap: wrap;
   max-width: 625px;
-  height: 120vh;
 }
-img {
-  width: 140px;
-}
+
 .card {
   display: flex;
 }
-.card2 {
-  display: flex;
-  align-self: flex-end;
+
+img {
+  width: 100px;
 }
 
-.card3 {
-  display: flex;
-}
 .profession {
   writing-mode: vertical-rl;
+}
+
+@media (min-width: 340px) {
+  .ctn-card1,
+  .ctn-card2,
+  .ctn-card3,
+  .ctn-card4,
+  .ctn-card5,
+  .ctn-card6 {
+    height: 360px;
+    display: flex;
+  }
+
+  .ctn-card2,
+  .ctn-card4,
+  .ctn-card6 {
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 415px) {
+  img {
+    width: 150px;
+  }
 }
 
 @media (min-width: 600px) {
@@ -66,11 +84,13 @@ img {
     padding: 30px;
   }
 
-  .team {
-    height: 100vh;
+  .ctn-card2,
+  .ctn-card5 {
+    align-items: flex-end;
   }
 
-  .card3 {
-    align-self: flex-end;
+  .ctn-card4,
+  .ctn-card6 {
+    align-items: flex-start;
   }
 }
