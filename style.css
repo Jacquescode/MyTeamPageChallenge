@@ -45,6 +45,13 @@ img {
 .profession {
   writing-mode: vertical-rl;
 }
+footer {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 @media (min-width: 340px) {
   .ctn-card1,
