@@ -38,6 +38,8 @@
 
 <img src="/Images/screencapture.png">
 
+It has been a fun challenge. It's been a little bit challenging, but I enjoyed doing it! :) P.S my CSS could be a little bit weird... but it's work!
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
